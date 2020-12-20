@@ -13,7 +13,7 @@ Here is how to check that app uses custom build of WebKit:
 1. Attach dmg by double clicking it.
 1. Open Terminal (Launchpad -> Other -> Terminal)
 1. Run command /Volumes/BrowserDevTest/BrowserDevTest.app/Contents/MacOS/BrowserDevTest in Terminal.
-1. This command launches app with custom WebKit, so, it will print "this is WebKit built by Sergey Pypyrev".
+1. This command launches app with custom WebKit, so, it will print "this is WebKit built by Sergey Pypyrev". The same text is printed when user opens popup.
 1. Exit app.
 1. Run command /Volumes/BrowserDevTest/BrowserDevTest.app/Contents/MacOS/BrowserDevTest.real in Terminal.
 1. This command launches app with system WebKit, so, it will print nothing.
